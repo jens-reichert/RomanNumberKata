@@ -2,7 +2,7 @@
 
 use Kata\DecimalToRomanConverter;
 
-class RomanNumberTest extends PHPUnit_Framework_TestCase
+class NumberToRomanTest extends PHPUnit_Framework_TestCase
 {
     public function setUp()
     {
