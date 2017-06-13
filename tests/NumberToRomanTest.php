@@ -85,7 +85,7 @@ class NumberToRomanTest extends PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function it_converts_48_to_XIII()
+    public function it_converts_48_to_XLVIII()
     {
         $this->assertEquals('XLVIII', $this->converter->convert(48));
     }

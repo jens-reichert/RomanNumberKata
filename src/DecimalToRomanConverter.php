@@ -45,7 +45,7 @@ class DecimalToRomanConverter
     /**
      * Convert the given number to a string of roman letters
      *
-     * @param $decimal
+     * @param int $decimal
      *
      * @return string
      */
@@ -94,7 +94,7 @@ class DecimalToRomanConverter
      *
      * @param integer $number
      *
-     * @return mixed
+     * @return int
      * @internal param $decimal
      */
     protected function subtractNumberFromDecimal($number)
@@ -105,8 +105,8 @@ class DecimalToRomanConverter
     /**
      * Build the output string of roman numbers
      *
-     * @param $letter
-     * @param $number
+     * @param string $letter
+     * @param int $number
      */
     protected function buildOutput($letter, $number)
     {
